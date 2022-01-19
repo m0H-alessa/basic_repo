@@ -1,0 +1,51 @@
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git remote add orgin https://github.com/m0H-alessa/basic_repo.git
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ touch indexx.html
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ touch steps.txt
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git add .
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   indexx.html
+        new file:   steps.txt
+
+
+2021@DESKTOP-J5QDJBK MINGW64 ~/Documents/WEB-FUNDAMENTALS-2021-AXSOS/GITbash/remote-repo-ASS (master)
+$ git commit -m "commiting for the first time"
+[master 8d88f76] commiting for the first time
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 GITbash/remote-repo-ASS/indexx.html
+ create mode 100644 GITbash/remote-repo-ASS/steps.txt
